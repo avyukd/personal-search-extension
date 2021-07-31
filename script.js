@@ -14,7 +14,7 @@ const postSelection = (info, tab) => {
             })
         }).then(
             response => {
-                alert("Saved!");
+                console.log("Saved!");
             }
         )
 
